@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+
+	<div class="wrap">
+		<header>
+			<h1>Select currency to exchange:</h1>
+			<div class="container">
+				<div class="dropdown">
+					<div class="select">
+						<span>USD</span>
+						<i class="fa fa-chevron-left"></i>
+					</div>
+					<input type="hidden" name="currency">
+					<ul class="dropdown-menu">
+						<li id="USD">USD</li>
+						<li id="EUR">EUR</li>
+						<li id="RUB">RUB</li>
+						<li id="GBP">GBP</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<div class="main">
+			<div class="coins etherum">
+				<h2>Ethereum</h2>
+				<img src="img/ethe.png" alt="etherum">
+				<table>
+					<tr>
+						<td class="white">Price</td>
+						<td class="white val1"></td>
+					</tr>
+					<tr>
+						<td class="white">Percent change</td>
+						<td>
+							<div class="container1">
+								<label class="switch" for="checkbox">
+									<input type="checkbox" id="checkbox" onclick="check_ms()">
+									<div class="slider round"></div>
+								</label>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>Hour change</td>
+						<td class="val3"></td>
+					</tr>
+					<tr>
+						<td>Day change</td>
+						<td class="val4"></td>
+					</tr>
+					<tr>
+						<td>Week change</td>
+						<td class="val5"></td>
+					</tr>
+					<tr>
+						<td>Month change</td>
+						<td class="val6"></td>
+					</tr>
+				</table>
+			</div>
+			<div class="coins litecoin">
+				<h2>Litecoin</h2>
+				<img src="img/lite.png" alt="litecoin">
+				<table>
+					<tr>
+						<td class="white">Price</td>
+						<td class="white val1"></td>
+					</tr>
+					<tr>
+						<td class="white">Percent change</td>
+						<td>
+							<div class="container1">
+								<label class="switch" for="checkbox2">
+									<input type="checkbox" id="checkbox2" onclick="check_ms1()"/>
+									<div class="slider round"></div>
+								</label>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>Hour change</td>
+						<td class="val3"></td>
+					</tr>
+					<tr>
+						<td>Day change</td>
+						<td class="val4"></td>
+					</tr>
+					<tr>
+						<td>Week change</td>
+						<td class="val5"></td>
+					</tr>
+					<tr>
+						<td>Month change</td>
+						<td class="val6"></td>
+					</tr>
+				</table>
+			</div>
+			<div class="coins bitcoin">
+				<h2>Bitcoin</h2>
+				<img src="img/bitcoin.png" alt="bitcoin">
+				<table>
+					<tr>
+						<td class="white">Price</td>
+						<td class="white val1"></td>
+					</tr>
+					<tr>
+						<td class="white">Percent change</td>
+						<td>
+							<div class="container1">
+								<label class="switch" for="checkbox3">
+									<input type="checkbox" id="checkbox3" onclick="check_ms2()" />
+									<div class="slider round"></div>
+								</label>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>Hour change</td>
+						<td class="val3"></td>
+					</tr>
+					<tr>
+						<td>Day change</td>
+						<td class="val4"></td>
+					</tr>
+					<tr>
+						<td>Week change</td>
+						<td class="val5"></td>
+					</tr>
+					<tr>
+						<td>Month change</td>
+						<td class="val6"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
